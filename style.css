@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 29px;
+}
+
+.btn-success:hover
+{
+    background-color: dimgray;
+}
+
+canvas
+{
+    animation-name: shourya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shourya
+{
+    from {box-shadow:1px 1px 38px yellow;}
+    to   {box-shadow:1px 1px 38px indigo; }
+}
